@@ -1,0 +1,2 @@
+# rustalgo
+rust algo
