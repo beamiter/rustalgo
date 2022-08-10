@@ -9,5 +9,9 @@
 #![allow(clippy::bool_assert_comparison)]
 #![allow(clippy::mutex_atomic)]
 #![allow(clippy::needless_collect)]
+#![allow(unused_imports)]
+
+#[cfg_attr(test, macro_use)]
+extern crate rustgym_util;
 
 mod d0;

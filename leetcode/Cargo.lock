@@ -5,3 +5,10 @@ version = 3
 [[package]]
 name = "leetcode"
 version = "0.1.0"
+dependencies = [
+ "rustgym-util",
+]
+
+[[package]]
+name = "rustgym-util"
+version = "0.1.0"
