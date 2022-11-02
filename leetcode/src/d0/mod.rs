@@ -13,3 +13,6 @@ mod _12_integer_to_roman;
 mod _13_roman_to_integer;
 mod _14_longest_common_prefix;
 mod _15_three_sum;
+mod _16_3sum_closest;
+mod _17_letter_combinations_of_a_phone_number;
+mod _18_4sum;
