@@ -25,3 +25,5 @@ mod _24_swap_nodes_in_pairs;
 mod _25_reverse_nodes_in_k_group;
 mod _26_remove_duplicates_from_sorted_array;
 mod _27_remove_elements;
+mod _28_implement_str_str;
+mod _29_divide_two_integers;
