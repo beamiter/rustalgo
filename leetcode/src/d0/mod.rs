@@ -28,3 +28,5 @@ mod _27_remove_elements;
 mod _28_implement_str_str;
 mod _29_divide_two_integers;
 mod _30_substring_with_concatenation_of_all_words;
+mod _31_next_permutation;
+mod _32_longest_valid_parentheses;
