@@ -30,3 +30,5 @@ mod _29_divide_two_integers;
 mod _30_substring_with_concatenation_of_all_words;
 mod _31_next_permutation;
 mod _32_longest_valid_parentheses;
+mod _33_search_in_rotated_sorted_array;
+mod _34_find_first_and_last_position_of_elements_in_sorted_array;
