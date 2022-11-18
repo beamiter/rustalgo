@@ -32,3 +32,8 @@ mod _31_next_permutation;
 mod _32_longest_valid_parentheses;
 mod _33_search_in_rotated_sorted_array;
 mod _34_find_first_and_last_position_of_elements_in_sorted_array;
+mod _35_search_insert_position;
+mod _36_valid_sudoku;
+mod _37_sudoku_solver;
+mod _38_count_and_say;
+mod _39_combination_sum;
