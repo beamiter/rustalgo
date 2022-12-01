@@ -51,3 +51,6 @@ mod _50_pow_x_n;
 mod _51_n_queens;
 mod _52_n_queens_2;
 mod _53_maximum_subarray;
+mod _54_spiral_matrix;
+mod _55_jump_game;
+mod _56_merge_intervals;
