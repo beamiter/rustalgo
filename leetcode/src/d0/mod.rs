@@ -58,3 +58,7 @@ mod _57_insert_interval;
 mod _58_length_of_last_words;
 mod _59_spiral_matrix_2;
 mod _60_permutation_sequence;
+mod _61_rotate_list;
+mod _62_unique_paths;
+mod _63_unique_paths_2;
+mod _64_minimum_path_sum;
