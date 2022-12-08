@@ -62,3 +62,4 @@ mod _61_rotate_list;
 mod _62_unique_paths;
 mod _63_unique_paths_2;
 mod _64_minimum_path_sum;
+mod _65_valid_number;
