@@ -56,3 +56,5 @@ mod _55_jump_game;
 mod _56_merge_intervals;
 mod _57_insert_interval;
 mod _58_length_of_last_words;
+mod _59_spiral_matrix_2;
+mod _60_permutation_sequence;
