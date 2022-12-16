@@ -65,3 +65,5 @@ mod _64_minimum_path_sum;
 mod _65_valid_number;
 mod _66_plus_one;
 mod _67_add_binary;
+mod _68_text_justification;
+mod _69_sqrt;
