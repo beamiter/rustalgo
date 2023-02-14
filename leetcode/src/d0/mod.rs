@@ -69,3 +69,4 @@ mod _68_text_justification;
 mod _69_sqrt;
 mod _70_climbing_stairs;
 mod _71_simplify_path;
+mod _72_edit_distance;
