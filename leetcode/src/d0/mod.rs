@@ -71,3 +71,4 @@ mod _70_climbing_stairs;
 mod _71_simplify_path;
 mod _72_edit_distance;
 mod _73_set_matrix_zeroes;
+mod _74_search_a_2d_matrix;
