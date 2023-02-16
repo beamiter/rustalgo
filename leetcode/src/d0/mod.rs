@@ -73,3 +73,6 @@ mod _72_edit_distance;
 mod _73_set_matrix_zeroes;
 mod _74_search_a_2d_matrix;
 mod _75_sort_colors;
+mod _76_minimum_window_substring;
+mod _77_combinations;
+mod _78_subsets;
