@@ -29,6 +29,39 @@ impl Solution {
         }
         return false;
     }
+    fn search_1(matrix: Vec<Vec<i32>>, target: i32) -> bool {
+        if matrix.is_empty() || matrix[0].is_empty() {
+            return false;
+        }
+        let mut left = 0;
+        let mut right = matrix.len() - 1;
+        while left < right {
+            let mid = (left + right) / 2;
+            if matrix[mid][0] == target {
+                return true;
+            }
+            if matrix[mid][0] < target {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+        let tmp = if right > 0 { right - 1 } else { right };
+        left = 0;
+        right = matrix[tmp].len() - 1;
+        while left < right {
+            let mid = (left + right) / 2;
+            if matrix[tmp][mid] == target {
+                return true;
+            }
+            if matrix[tmp][mid] < target {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+        return false;
+    }
 }
 
 #[test]
@@ -36,5 +69,5 @@ fn test() {
     let matrix: Vec<Vec<i32>> = vec_vec_i32![[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 50]];
     let target = 23;
     let res = true;
-    assert_eq!(Solution::search_0(matrix, target), res);
+    assert_eq!(Solution::search_1(matrix, target), res);
 }
