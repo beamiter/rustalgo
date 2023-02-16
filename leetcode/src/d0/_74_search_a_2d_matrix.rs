@@ -34,7 +34,7 @@ impl Solution {
             return false;
         }
         let mut left = 0;
-        let mut right = matrix.len() - 1;
+        let mut right = matrix.len();
         while left < right {
             let mid = (left + right) / 2;
             if matrix[mid][0] == target {
@@ -48,7 +48,7 @@ impl Solution {
         }
         let tmp = if right > 0 { right - 1 } else { right };
         left = 0;
-        right = matrix[tmp].len() - 1;
+        right = matrix[tmp].len();
         while left < right {
             let mid = (left + right) / 2;
             if matrix[tmp][mid] == target {
