@@ -77,3 +77,6 @@ mod _76_minimum_window_substring;
 mod _77_combinations;
 mod _78_subsets;
 mod _79_word_search;
+mod _80_remvoe_duplicates_from_sorted_array_2;
+mod _81_search_in_rotated_sorted_array_2;
+mod _82_remove_duplicates_from_sorted_list_2;
