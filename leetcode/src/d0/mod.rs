@@ -82,3 +82,4 @@ mod _81_search_in_rotated_sorted_array_2;
 mod _82_remove_duplicates_from_sorted_list_2;
 mod _83_remove_duplicates_from_sorted_list;
 mod _84_largest_rectangle_in_histogram;
+mod _85_maximal_rectangle;
