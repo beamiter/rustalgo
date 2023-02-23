@@ -66,11 +66,39 @@ impl Solution {
         }
         ans
     }
+    fn test1(mut heights: Vec<i32>) -> i32 {
+        heights.push(0);
+        heights.insert(0, 0);
+        heights.push(0);
+        let n = heights.len();
+        let mut mono_stack: Vec<i32> = vec![0];
+        let mut ans = 0;
+        for i in 1..n {
+            while let Some(&idx) = mono_stack.last() {
+                if heights[i] < heights[idx as usize] {
+                    mono_stack.pop();
+                    let height = heights[idx as usize];
+                    let width = i as i32
+                        - if let Some(&x) = mono_stack.last() {
+                            x
+                        } else {
+                            0
+                        }
+                        - 1;
+                    ans = ans.max(height * width);
+                } else {
+                    break;
+                }
+            }
+            mono_stack.push(i as i32);
+        }
+        ans
+    }
 }
 
 #[test]
 fn test() {
     let heights = vec![2, 1, 5, 6, 2, 3];
     let res = 10;
-    assert_eq!(Solution::test0(heights), res);
+    assert_eq!(Solution::test1(heights), res);
 }
