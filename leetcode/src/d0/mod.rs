@@ -86,3 +86,5 @@ mod _85_maximal_rectangle;
 mod _86_partition_list;
 mod _87_scramble_string;
 mod _88_merge_sorted_array;
+mod _89_gray_code;
+mod _90_subsets_2;
