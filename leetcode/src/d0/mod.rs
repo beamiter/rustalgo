@@ -85,3 +85,4 @@ mod _84_largest_rectangle_in_histogram;
 mod _85_maximal_rectangle;
 mod _86_partition_list;
 mod _87_scramble_string;
+mod _88_merge_sorted_array;
