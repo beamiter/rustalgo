@@ -91,3 +91,6 @@ mod _90_subsets_2;
 mod _91_decode_ways;
 mod _92_reverse_linked_list_2;
 mod _93_restore_ip_addresses;
+mod _94_binary_tree_inorder_traversal;
+mod _95_unique_binary_search_tree_2;
+mod _96_unique_binary_search_trees;
