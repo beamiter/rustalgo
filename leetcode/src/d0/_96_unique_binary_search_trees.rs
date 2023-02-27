@@ -1,8 +1,8 @@
-struct  Solution;
+struct Solution;
 
 // dfs, dfs with memo, dp
 impl Solution {
-   fn num_trees(n: i32) -> i32 {
+    fn num_trees(n: i32) -> i32 {
         let n = n as usize;
         let mut dp: Vec<i32> = vec![0; n + 1];
         dp[0] = 1;
@@ -13,7 +13,7 @@ impl Solution {
             }
         }
         dp[n]
-    } 
+    }
 }
 
 #[test]
