@@ -15,4 +15,5 @@
 extern crate rustgym_util;
 
 mod d0;
+mod d1;
 mod d2;
