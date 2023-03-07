@@ -3,3 +3,7 @@ mod _101_symmetric_tree;
 mod _102_binary_tree_level_order_traversl;
 mod _103_binary_tree_zigzag_level_order_traversal;
 mod _104_maximum_depth_of_binary_tree;
+mod _105_construct_binary_tree_from_preorder_and_inorder_traversal;
+mod _106_construct_binary_tree_from_inorder_and_postorder_traversal;
+mod _107_binary_tree_level_order_traversal_2;
+mod _108_convert_sorted_array_binary_search_tree;
