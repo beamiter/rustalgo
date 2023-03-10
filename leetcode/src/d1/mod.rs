@@ -14,3 +14,6 @@ mod _112_path_sum;
 mod _113_path_sum_2;
 mod _114_flatten_binary_tree_to_linked_list;
 mod _115_distinct_subsequences;
+mod _118_pascal_triangle;
+mod _119_pascal_triangle_2;
+mod _120_triangle;
