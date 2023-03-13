@@ -18,3 +18,6 @@ mod _118_pascal_triangle;
 mod _119_pascal_triangle_2;
 mod _120_triangle;
 mod _121_best_time_to_but_and_sell_stock;
+mod _122_best_time_to_buy_and_sell_stock_2;
+mod _123_best_time_to_buy_and_sell_stock_3;
+mod _124_binary_tree_maximum_path_sum;
