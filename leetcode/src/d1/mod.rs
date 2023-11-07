@@ -23,3 +23,5 @@ mod _123_best_time_to_buy_and_sell_stock_3;
 mod _124_binary_tree_maximum_path_sum;
 mod _125_valid_palindrome;
 mod _126_word_ladder_2;
+mod _127_word_ladder;
+mod _128_longest_consecutive_sequence;
