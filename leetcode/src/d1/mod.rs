@@ -25,3 +25,5 @@ mod _125_valid_palindrome;
 mod _126_word_ladder_2;
 mod _127_word_ladder;
 mod _128_longest_consecutive_sequence;
+mod _129_sum_root_to_leaf_numbers;
+mod _130_surrounded_regions;
