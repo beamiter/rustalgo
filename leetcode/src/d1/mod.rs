@@ -27,3 +27,8 @@ mod _127_word_ladder;
 mod _128_longest_consecutive_sequence;
 mod _129_sum_root_to_leaf_numbers;
 mod _130_surrounded_regions;
+mod _131_palindrome_partitioning;
+mod _132_palindrome_partitioning_2;
+mod _134_gas_station;
+mod _135_candy;
+mod _136_single_number;
