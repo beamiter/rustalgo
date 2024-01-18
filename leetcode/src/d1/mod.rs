@@ -43,3 +43,4 @@ mod _147_insertion_sort_list;
 mod _148_sort_list;
 mod _149_max_points_on_a_line;
 mod _150_evaluate_reverse_polish_notation;
+mod _151_reverse_words_in_a_string;
