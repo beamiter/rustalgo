@@ -47,3 +47,7 @@ mod _151_reverse_words_in_a_string;
 mod _152_maximum_product_subarray;
 mod _153_find_minimum_in_rotated_sorted_array;
 mod _155_min_stack;
+mod _156_bindary_tree_upside_down;
+mod _157_read_n_characters_given_read4;
+mod _159_longest_substring_with_at_most_two_distinc_chacacters;
+mod _161_one_edit_distance;
