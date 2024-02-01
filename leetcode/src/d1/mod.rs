@@ -55,3 +55,4 @@ mod _162_find_peak_element;
 mod _163_missing_ranges;
 mod _164_maximum_gap;
 mod _165_compare_version_numbers;
+mod _166_fraction_to_recurring_decimal;
