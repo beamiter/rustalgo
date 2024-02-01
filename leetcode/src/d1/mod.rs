@@ -51,3 +51,7 @@ mod _156_bindary_tree_upside_down;
 mod _157_read_n_characters_given_read4;
 mod _159_longest_substring_with_at_most_two_distinc_chacacters;
 mod _161_one_edit_distance;
+mod _162_find_peak_element;
+mod _163_missing_ranges;
+mod _164_maximum_gap;
+mod _165_compare_version_numbers;
