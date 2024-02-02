@@ -56,3 +56,8 @@ mod _163_missing_ranges;
 mod _164_maximum_gap;
 mod _165_compare_version_numbers;
 mod _166_fraction_to_recurring_decimal;
+mod _167_two_sum_2;
+mod _169_majority_element;
+mod _170_two_sum_3;
+mod _171_excel_sheet_column_number;
+mod _172_factorial_trailing_zeroes;
