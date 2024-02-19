@@ -62,3 +62,6 @@ mod _170_two_sum_3;
 mod _171_excel_sheet_column_number;
 mod _172_factorial_trailing_zeroes;
 mod _173_binary_search_tree_iterator;
+mod _174_dungeon_game;
+mod _179_largest_number;
+mod _186_reverse_words_in_a_string_2;
