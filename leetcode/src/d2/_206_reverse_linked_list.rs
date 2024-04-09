@@ -4,25 +4,25 @@ use rustgym_util::*;
 
 impl Solution {
     fn reverse_list(head: ListLink) -> ListLink {
-	let mut p = head;
-	let mut prev = None;
-	while let Some(mut node) = p {
-	    p = node.next;
-	    node.next = prev;
-	    prev = Some(node);
-	}
-	prev
+        let mut p = head;
+        let mut prev = None;
+        while let Some(mut node) = p {
+            p = node.next;
+            node.next = prev;
+            prev = Some(node);
+        }
+        prev
     }
     fn test(head: ListLink) -> ListLink {
-	let mut cur = head;
-	let mut pre = None;
-	while let Some(mut node) = cur {
-	    let temp = node.next;
-	    node.next = pre;
-	    pre = Some(node);
-	    cur = temp;
-	}
-	pre
+        let mut cur = head;
+        let mut pre = None;
+        while let Some(mut node) = cur {
+            let temp = node.next;
+            node.next = pre;
+            pre = Some(node);
+            cur = temp;
+        }
+        pre
     }
 }
 
