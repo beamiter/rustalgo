@@ -70,3 +70,4 @@ mod _188_best_time_to_buy_and_sell_stock_4;
 mod _189_rotate_array;
 mod _190_reverse_bits;
 mod _191_number_of_1_bits;
+mod _198_house_robber;
