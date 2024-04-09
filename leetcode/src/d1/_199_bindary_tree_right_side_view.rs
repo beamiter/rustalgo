@@ -21,7 +21,7 @@ impl Preorder for TreeLink {
     }
 }
 
-impl  Solution{
+impl Solution {
     fn right_side_view(root: TreeLink) -> Vec<i32> {
         let mut res: Vec<i32> = vec![];
         root.preorder(0, &mut res);
